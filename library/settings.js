@@ -4,9 +4,9 @@ module.exports = {
 	myEmail: 'sandikurniawan12042004@gmail.com',
         passEmailApp: 'plgeklttdfciejjw',
 	limitCount: 40,
-	limitPremium: 9999,
+	limitPremium: 5000,
         expiredTokenDb: 3600,
-	dateLimit: "Oktober, 31 2022",
+	dateLimit: "13 Desember 2025",
 	profilePath: "/images/farhan.png",
 	jwtToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.cThIIoDvwdueQB468K5xDc5633seEFoqwxjF_xSJyQQ",
 	recaptchaKey: {
