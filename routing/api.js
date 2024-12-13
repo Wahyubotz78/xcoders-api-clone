@@ -7,7 +7,7 @@ const googlethis = require("googlethis");
 const moment = require("moment-timezone");
 const fs = require("fs");
 const router = express.Router();
-const creator = "Farhannnnn";
+const creator = "Noth HDR";
 
 const apikeyAndLimit = require("../library/apikeyAndLimit");
 const { regexUrl, getBuffer, getJson, resSukses, resError, formatSize, loghandler } = require("../library/functions");
