@@ -1,7 +1,7 @@
 module.exports.htmlRegister = (urlVerif) => `<!DOCTYPE html>
 		 <html>
 				<head>
-	<title>XCODERS VERIFIKASI</title>
+	<title>DLUXTZY VERIFIKASI</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -90,7 +90,7 @@ module.exports.htmlRegister = (urlVerif) => `<!DOCTYPE html>
 				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
 					<tr>
 						<td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Acme', sans-serif; font-size: 20px; font-weight: 200; letter-spacing: 2px; line-height: 48px;">
-							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">XCODERS API</h1> <img src="https://i.pinimg.com/originals/cb/39/26/cb3926914e31158f04e7d04ede2f5d3a.gif" width="150" height="150" style="display: block; border: 0px;" />
+							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">DLUXTZY API</h1> <img src="https://i.pinimg.com/originals/cb/39/26/cb3926914e31158f04e7d04ede2f5d3a.gif" width="150" height="150" style="display: block; border: 0px;" />
 						</td>
 					</tr>
 				</table>
@@ -136,7 +136,7 @@ module.exports.htmlRegister = (urlVerif) => `<!DOCTYPE html>
 					</tr>
 					<tr>
 						<td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Acme', sans-serif; font-size: 10px; font-weight: 400; line-height: 25px;">
-							<p style="margin: 0;">Cheers,<br>XCODERS TEAM</p>
+							<p style="margin: 0;">Cheers,<br>DLUXTZY TEAM</p>
 						</td>
 					</tr>
 				</table>
@@ -156,7 +156,7 @@ module.exports.htmlPassword = (url) => `
 <!DOCTYPE html>
 		 <html>
 				<head>
-	<title>XCODERS VERIFIKASI</title>
+	<title>DLUXTZY VERIFIKASI</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -245,7 +245,7 @@ module.exports.htmlPassword = (url) => `
 				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
 					<tr>
 						<td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Acme', sans-serif; font-size: 20px; font-weight: 200; letter-spacing: 2px; line-height: 48px;">
-							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">XCODERS API</h1> <img src="https://giffiles.alphacoders.com/988/9881.gif" width="180" height="180" style="display: block; border: 0px;" />
+							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">DLUXTZY API</h1> <img src="https://giffiles.alphacoders.com/988/9881.gif" width="180" height="180" style="display: block; border: 0px;" />
 						</td>
 					</tr>
 				</table>
@@ -276,12 +276,12 @@ module.exports.htmlPassword = (url) => `
 					</tr>
 					<tr>
 					<td bgcolor="#ffffff" align="left" style="padding: 20px 30px 40px 30px; color: #666666; font-family: 'Acme', sans-serif; font-size: 14px; font-weight: 400; line-height: 25px;">
-					<p style="margin: 0;">For user convenience, we admin xcoders provide this page. thank you for always supporting.</p>
+					<p style="margin: 0;">For user convenience, we admin dluxtzy provide this page. thank you for always supporting.</p>
 					</td>
 					</tr>
 					<tr>
 						<td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Acme', sans-serif; font-size: 10px; font-weight: 400; line-height: 25px;">
-							<p style="margin: 0;">Cheers,<br>XCODERS TEAM</p>
+							<p style="margin: 0;">Cheers,<br>DLUXTZY TEAM</p>
 						</td>
 					</tr>
 				</table>
