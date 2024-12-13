@@ -3,7 +3,7 @@ module.exports = {
 	service: "gmail",
 	myEmail: 'sandikurniawan12042004@gmail.com',
         passEmailApp: 'plgeklttdfciejjw',
-	limitCount: 40,
+	limitCount: 100,
 	limitPremium: 5000,
         expiredTokenDb: 3600,
 	dateLimit: "13 Desember 2025",
