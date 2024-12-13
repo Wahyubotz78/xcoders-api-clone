@@ -6,15 +6,13 @@ const { limitCount } = require('../library/settings');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    let { username } = req.user
-    if( username !=='Bener')return res.render('premium/index', {
+    res.render('premium/index', {
         layout: 'layouts/main'
     })
 })
 
 router.get('/add', (req, res) => {
-    let { username } = req.user
-    if( username !=='Bener')return res.render('premium/add',  {
+    res.render('premium/add',  {
         layout: 'layouts/main'
     });
 });
@@ -43,8 +41,7 @@ router.post('/add', async (req, res) => {
 })
 
 router.get('/delete', (req, res) => {
-    let { username } = req.user
-    if( username !=='Bener')return res.render('premium/delete',  {
+    res.render('premium/delete',  {
         layout: 'layouts/main'
     });
 });
