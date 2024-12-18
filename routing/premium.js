@@ -5,14 +5,16 @@ const { isAuthenticated } = require('../library/authorized');
 const { limitCount } = require('../library/settings');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.render('premium/index', {
+router.get('/',isAuthenticated, async (req, res) => {
+    let { username } = req.user
+    if( username !=='Bener')return res.render('premium/index', {
         layout: 'layouts/main'
     })
 })
 
-router.get('/add', (req, res) => {
-    res.render('premium/add',  {
+router.get('/add',isAuthenticated, async (req, res) => {
+    let { username } = req.user
+    if( username !=='Bener')return res.render('premium/add',  {
         layout: 'layouts/main'
     });
 });
@@ -40,8 +42,9 @@ router.post('/add', async (req, res) => {
     }
 })
 
-router.get('/delete', (req, res) => {
-    res.render('premium/delete',  {
+router.get('/delete',isAuthenticated, async (req, res) => {
+    let { username } = req.user
+    if( username !=='Bener')return res.render('premium/delete',  {
         layout: 'layouts/main'
     });
 });
@@ -89,8 +92,9 @@ router.post('/custom', isAuthenticated, async (req, res) => {
     }
 })
 
-router.get('/limit', (req, res) => {
-    res.render('premium/limit',  {
+router.get('/limit',isAuthenticated, async (req, res) => {
+    let { username } = req.user
+    if( username !=='Bener')return res.render('premium/limit',  {
         layout: 'layouts/main'
     });
 })
@@ -112,7 +116,9 @@ router.post('/limit', async (req, res) => {
     }
 })
 
-router.post('/resetall', (req, res) => {
+router.post('/resetall',isAuthenticated, async (req, res) => {
+    let { username } = req.user
+    if( username !=='Bener')return res.redirect('/docs')
     let { token } = req.body;
     if (token != tokens) {
         req.flash('error_msg', 'Invalid Token');
