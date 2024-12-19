@@ -1,7 +1,7 @@
 const { User, Utils } = require('./model');
 const toMs = require('ms');
 const { limitCount, limitPremium } = require('../library/settings');
-const e = require('connect-flash');
+const flash = require('connect-flash');
 const tokens = 'Lann'
 module.exports.tokens = tokens
 
